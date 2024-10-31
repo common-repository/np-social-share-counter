@@ -1,0 +1,259 @@
+.npsc-navwrap *{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+.npsc-navwrap img{
+    max-width: 100%;
+}
+.npsc-form-header{
+    display: inline-block;
+    width: 100%;
+    background: #2980B9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.npsc-top-header{
+    float: left;
+}
+body #poststuff .npsc-navwrap .npsc-top-header h2{
+    font-size:22px;
+    font-weight: 400;
+    color: #fff;
+}
+body #poststuff .npsc-navwrap .npsc-top-header h2 a{
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.npsc-top-header.npsc-right{
+    float: right;
+    margin-top: 10px;
+}
+.npsc-navwrap{
+    border:0;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    background:transparent;
+}
+.npsc-navwrap #nssc_lite_tabs{
+    display: table;
+    width: 100%;
+}
+.npsc-options-tabs-list{
+    display: table-cell;
+    width: 250px;
+    vertical-align: top;
+    background: #2980B9;
+    border: 1px solid #2980B9;
+}
+.npsc-options-tabs-contents{
+    display: table-cell;
+    width:-moz-calc(100% - 250px);
+    width:-webkit-calc(100% - 250px);
+    width:calc(100% - 250px);
+    padding:0 0 0 20px;
+}
+.npsc-options-tabs-contents .ui-tabs-panel{
+    border:1px solid #eee;
+    background: #fff;
+    padding:20px;
+}
+.npsc-options-tabs-list ul li a{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding:20px;
+    border-bottom: 1px solid #a0c3db;
+    outline:0;
+}
+.npsc-options-tabs-list ul li.ui-tabs-active a{
+    background:#fff; 
+    color:#2980B9;
+}
+.npsc-options-tabs-contents .npsc-tab-section ul{
+    border-bottom: 1px solid #2980B9;
+    margin-bottom:20px;
+}
+.npsc-options-tabs-contents .npsc-tab-section ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+.npsc-options-tabs-contents .npsc-tab-section ul li a{
+    display: block;
+    text-decoration: none;
+    background: #2980B9;
+    color: #fff;
+    padding:12px  20px;
+    margin-bottom: -1px;
+    border:1px solid #2980B9;
+    outline: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.npsc-options-tabs-contents .npsc-tab-section ul li.ntab-active a{
+    background: #fff;
+    border-bottom-color: #fff;
+    color:#2980B9;
+}
+.npsc-row,
+.npsc-field{
+   position: relative;
+   padding-left:205px;
+   margin-bottom:30px;
+}
+.npsc-field:last-child{
+    margin-bottom: 0;
+}
+.npsc-col-2,
+.npsc_field_wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 200px;
+}
+.npsc-wrapper-content legend{
+    margin-bottom:30px;
+    cursor:move;
+    width: 100%;
+    position: relative;
+}
+.npsc-wrapper-content legend:after{
+    position: absolute;
+    top: 50%;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+    right: 20px;
+    content:'\f107';
+    font-size:20px;
+    font-family: Fontawesome;
+}
+.npsc-wrapper-content legend .npsc-sortable{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    background: #2980B9;
+    color: #fff;
+    border:2px solid #2980B9;
+    display: inline-block;
+    vertical-align: top;
+}
+.npsc-wrapper-content legend .npsc-sortable i{
+    line-height: 30px;
+}
+.npsc-wrapper-content legend .media-icon i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background: #2980B9;
+}
+.npsc-wrapper-content legend + .field-wrapper{
+   padding:20px;
+   border:1px solid #eee;
+   margin-bottom:50px;
+   display: none;
+}
+.npsc_input_wrap input[type=text]{
+    max-width:300px;
+    width: 100%;
+    height:30px;
+    padding:0 10px;
+}
+.npsc-navwrap select{
+    height: 30px;
+}
+.npsc-row p{
+    display: block;
+    margin-bottom:20px;
+}
+@media only screen and (max-width: 1200px) {
+    .npsc-options-tabs-contents .npsc-tab-section ul li a{
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:992px) {
+    .npsc-navwrap #nssc_lite_tabs{
+        display: block;
+    }
+    .npsc-options-tabs-list{
+        display: block;
+        width: 100%;
+    }
+    .npsc-options-tabs-contents {
+        display: block;
+        width:100%;
+        padding:0;
+    }
+    .npsc-options-tabs-contents .npsc-tab-section ul li a{
+        padding:10px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:768px){
+    .npsc-options-tabs-contents .npsc-tab-section ul li{
+        display: block;
+    }
+    .npsc-options-tabs-contents .npsc-tab-section ul li a{
+        padding:10px;
+        font-size: 14px;
+        display: block;
+
+    }
+    .npsc-options-tabs-contents .npsc-tab-section ul li.ntab-active a{
+        border-bottom-color: #2980B9;
+    }
+
+}
+@media only screen and (max-width:768px){
+    .npsc-row,
+    .npsc-field{
+       padding-left:0;
+    }
+    .npsc-col-2,
+    .npsc_field_wrap{
+        position:static;
+        max-width:100%;
+        margin-bottom: 7px;
+    }
+}
+
+.npsc-tab2-content.current{
+    display: block;
+}
+.npsc-tab2-content{
+    display: none;
+}
+.npsc-tab-content.current{
+    display: block;
+}
+.npsc-tab-content{
+    display: none;
+}
+.npssc-how-to-use,
+.npssc-how-to-use p,
+.npssc-how-to-use li,
+.npssc-how-to-use b{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.npssc-how-to-use h2,
+.npssc-how-to-use h3{
+    font-size: 16px !important;
+    padding: 0 !important;
+    margin-bottom: 6px !important;
+}
+/**/
+
